@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/scherer/pen/yNoqBG.
+a tiny site to showcase the corporate design colors.
+switch between hex and rgb
 
  
