@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #f5f4f1;
+} 
+h1{
+    font-size: 1.5em;
+    color: #cc0000;
+    font-weight: normal;
+    margin: 0;
+}
+div.menu{
+    background-color: #f5f4f1;
+    padding:10px;
+    box-shadow: 5px 5px 5px #d6d3cc;
+    height: 40px;
+    min-width: 450px;
+}
+div.menu h1{
+    font-size: 1.5em;
+    color: #cc0000;
+    margin:0 20px 0 0;
+    font-weight: normal;
+    display: inline-block;
+}
+table{
+    font-size: 0.8em;
+    width: 90%;
+    border:0px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #d6d3cc;   
+}
+th{
+    background-color: #ffffff;
+    padding:1em;
+    line-height: 1em;
+    height: 1em;
+    text-align: left;
+}
+td{
+    padding: 1em;
+    text-align: center;
+    vertical-align: center;
+    color: #fff;
+}
+button{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    border:0px solid #9e9890;
+    background: #7f766e;
+    padding: 1em;
+    border-radius: 3px;
+    margin:0;
+}
+button:hover{
+    /*cursor:pointer;*/
+}
+.sat-btn-1{
+    background-color: #666666;
+    border: 1px solid #333333;
+    color:#ffffff;
+}            
+.sat-btn-1:hover{
+    background-color: #333333;
+    border: 1px solid #333333;
+    color:#ffffff;
+}
+
+.sat-btn-2{
+    background-color: #9e9890;
+    border: 1px solid #7f766e;
+    color:#ffffff;
+}            
+.sat-btn-2:hover{
+    background-color: #7f766e;
+    border: 1px solid #7f766e;
+    color:#ffffff;
+} 
+
+.sat-btn-3{
+    background-color: #cc0000;
+    border: 1px solid #ab0000;
+    color:#ffffff;
+}            
+.sat-btn-3:hover{
+    background-color: #ab0000;
+    border: 1px solid #ab0000;
+    color:#ffffff;
+} 
+
+.sat-btn-4{
+    background-color: #f4f3f0;
+    border: 1px solid #d6d3cc;
+    color:#000000;
+}            
+.sat-btn-4:hover{
+    background-color: #d6d3cc;
+    border: 1px solid #d6d3cc;
+    color:#000000;
+}
+button.view-hex{
+    display: none;
+} 
+button.view-rgb{
+} 
