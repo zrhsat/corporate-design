@@ -5,24 +5,22 @@ body{
     background-color: #f5f4f1;
 } 
 h1{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: normal;
     margin: 0;
     color: #cc0000;
-}
-
-div.content{
-    background-color: #ffffff;
-    padding: 10px;
-    box-shadow: 2px 2px 2px #d6d3cc;
-    margin: 10px;
 }
 div.menu{
     background-color: #f5f4f1;
     padding:10px;
     box-shadow: 5px 5px 5px #d6d3cc;
-    height: 40px;
     margin: 0 0 20px 0;
+}
+div.content{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #d6d3cc;
+    margin: 10px;
 }
 button{
     color: #fff;

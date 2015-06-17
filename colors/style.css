@@ -5,7 +5,7 @@ body{
     background-color: #f5f4f1;
 } 
 h1{
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #cc0000;
     font-weight: normal;
     margin: 0;
@@ -14,7 +14,6 @@ div.menu{
     background-color: #f5f4f1;
     padding:10px;
     box-shadow: 5px 5px 5px #d6d3cc;
-    height: 40px;
     min-width: 450px;
 }
 div.menu h1{
