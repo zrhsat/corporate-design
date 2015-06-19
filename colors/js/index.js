@@ -7,12 +7,12 @@ $( document ).ready(function() {
             var colorGreen = parseInt(hexclean.substr(2,2),16);
             var colorBlue = parseInt(hexclean.substr(4,2),16);
             var RGB = "rgb("+colorRed+", "+colorGreen+", "+colorBlue+")"
-            $(this).text(hextext.replace(hextext, RGB)); 
+            $(this).text(hextext.replace(hextext, RGB));
         });
-        $("button.view-rgb").hide();   
-        $("button.view-hex").show();     
+        $("button.view-rgb").hide();
+        $("button.view-hex").show();
     });
-    $("button.view-hex").click(function() {  
+    $("button.view-hex").click(function() {
         location.reload();
     });
-});	
+});
