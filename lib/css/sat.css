@@ -5,10 +5,19 @@ body{
     background-color: #f5f4f1;
 }
 h1{
-    font-size: 1.4em;
+    font-size: 2em;
     color: #cc0000;
     font-weight: normal;
     margin: 0;
+}
+h2{
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+.txt-small{
+    font-size: 0.8em;
 }
 div.menu{
     background-color: #f5f4f1;
@@ -27,9 +36,8 @@ table{
     font-size: 0.8em;
     width: 90%;
     border:0px;
-    margin: 20px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 2px #d6d3cc;
+    margin-bottom: 1em;
+
 }
 th{
     background-color: #ffffff;
@@ -44,11 +52,17 @@ td{
     vertical-align: center;
     color: #fff;
 }
+div.content{
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 2px 2px 2px #d6d3cc;
+    margin: 2em;
+}
+
+/* Button stlyes -------------------*/
 button{
     color: #fff;
-    font-size: 0.8em;
-    font-weight: bold;
-    border:0px solid #9e9890;
+    font-size: 0.9em;
     background: #7f766e;
     padding: 1em;
     border-radius: 3px;
@@ -100,6 +114,51 @@ button:hover{
     border: 1px solid #d6d3cc;
     color:#000000;
 }
+.sat-btn-1-old{
+    background: linear-gradient(#666666, #333333);
+    border: 1px solid #333333;
+    color:#ffffff;
+}
+.sat-btn-1-old:hover{
+    background: linear-gradient(#333333, #666666);
+    border: 1px solid #333333;
+    color:#ffffff;
+}
+
+.sat-btn-2-old{
+    background: linear-gradient(#9e9890, #7f766e);
+    border: 1px solid #7f766e;
+    color:#ffffff;
+}
+.sat-btn-2-old:hover{
+    background: linear-gradient(#7f766e, #9e9890);
+    border: 1px solid #7f766e;
+    color:#ffffff;
+}
+
+.sat-btn-3-old{
+    background: linear-gradient(#cc0000, #ab0000);
+    border: 1px solid #ab0000;
+    color:#ffffff;
+}
+.sat-btn-3-old:hover{
+    background: linear-gradient(#ab0000, #cc0000);
+    border: 1px solid #ab0000;
+    color:#ffffff;
+}
+
+.sat-btn-4-old{
+    background: linear-gradient(#f4f3f0, #d6d3cc);
+    border: 1px solid #d6d3cc;
+    color:#000000;
+}
+.sat-btn-4-old:hover{
+    background: linear-gradient(#d6d3cc, #f4f3f0);
+    border: 1px solid #d6d3cc;
+    color:#000000;
+}
+
+/* site button ------------------------------*/
 button.view-hex{
     display: none;
 }
