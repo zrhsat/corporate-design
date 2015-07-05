@@ -1,69 +1,81 @@
-/* line 36, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 36, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   background-color: #f5f4f1; }
 
-/* line 42, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 42, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 h1 {
   font-size: 2em;
   color: #cc0000;
   font-weight: normal;
   margin: 0; }
-  /* line 47, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 47, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   h1 a {
     color: #cc0000;
     text-decoration: none; }
 
-/* line 51, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 51, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 h2 {
   font-size: 1.2em;
   color: #000000;
   font-weight: bold;
   margin: 0 0 1em 0; }
 
-/* line 57, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 57, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .txt-small {
   font-size: 0.8em; }
 
-/* line 60, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 60, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 div.menu {
   background-color: #f5f4f1;
   padding: 10px;
   box-shadow: 5px 5px 5px #d6d3cc;
   min-width: 450px; }
 
-/* line 66, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 66, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 table {
-  font-size: 0.8em;
-  width: 90%;
-  border: 0px;
+  font-size: 1em;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
   margin-bottom: 1em; }
+  /* line 72, /Users/michael/Code/sat-tools/lib/css/sat.sass */
+  table caption {
+    caption-side: bottom;
+    text-align: left;
+    padding: 1em;
+    font-size: 0.9em; }
+  /* line 85, /Users/michael/Code/sat-tools/lib/css/sat.sass */
+  table tr th {
+    background-color: #bab6ae;
+    padding: 1em;
+    line-height: 1em;
+    height: 1em;
+    text-align: left;
+    border: 1px solid white; }
+  /* line 92, /Users/michael/Code/sat-tools/lib/css/sat.sass */
+  table tr td {
+    text-align: left;
+    padding: 1em;
+    vertical-align: top;
+    border: 1px solid white; }
+  /* line 98, /Users/michael/Code/sat-tools/lib/css/sat.sass */
+  table tr:nth-child(odd) {
+    background-color: #f5f4f1; }
+  /* line 102, /Users/michael/Code/sat-tools/lib/css/sat.sass */
+  table tfoot td {
+    background-color: #d6d3cc; }
 
-/* line 72, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
-th {
-  background-color: #ffffff;
-  padding: 1em;
-  line-height: 1em;
-  height: 1em;
-  text-align: left; }
-
-/* line 79, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
-td {
-  padding: 1em;
-  text-align: center;
-  vertical-align: center;
-  color: #fff; }
-
-/* line 85, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 105, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 div.content {
   background-color: #ffffff;
   padding: 1em;
   box-shadow: 2px 2px 2px #d6d3cc;
   margin: 2em; }
 
-/* line 91, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 111, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 button {
   color: #fff;
   font-size: 0.9em;
@@ -71,100 +83,100 @@ button {
   padding: 1em;
   border-radius: 3px;
   margin: 0; }
-  /* line 98, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 118, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   button:hover {
     /*cursor:pointer; */ }
 
-/* line 101, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 121, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-1 {
   background-color: #666666;
   border: 1px solid #333333;
   color: #ffffff; }
-  /* line 105, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 125, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-1:hover {
     background-color: #333333;
     border: 1px solid #333333;
     color: #ffffff; }
 
-/* line 110, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 130, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-2 {
   background-color: #9e9890;
   border: 1px solid #7f766e;
   color: #ffffff; }
-  /* line 114, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 134, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-2:hover {
     background-color: #7f766e;
     border: 1px solid #7f766e;
     color: #ffffff; }
 
-/* line 119, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 139, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-3 {
   background-color: #cc0000;
   border: 1px solid #ab0000;
   color: #ffffff; }
-  /* line 123, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 143, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-3:hover {
     background-color: #ab0000;
     border: 1px solid #ab0000;
     color: #ffffff; }
 
-/* line 128, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 148, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-4 {
   background-color: #f4f3f0;
   border: 1px solid #d6d3cc;
   color: #000000; }
-  /* line 132, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 152, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-4:hover {
     background-color: #d6d3cc;
     border: 1px solid #d6d3cc;
     color: #000000; }
 
-/* line 137, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 157, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-1-old {
   background: linear-gradient(#666666, #333333);
   border: 1px solid #333333;
   color: #ffffff; }
-  /* line 141, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 161, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-1-old:hover {
     background: linear-gradient(#333333, #666666);
     border: 1px solid #333333;
     color: #ffffff; }
 
-/* line 146, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 166, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-2-old {
   background: linear-gradient(#9e9890, #7f766e);
   border: 1px solid #7f766e;
   color: #ffffff; }
-  /* line 150, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 170, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-2-old:hover {
     background: linear-gradient(#7f766e, #9e9890);
     border: 1px solid #7f766e;
     color: #ffffff; }
 
-/* line 155, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 175, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-3-old {
   background: linear-gradient(#cc0000, #ab0000);
   border: 1px solid #ab0000;
   color: #ffffff; }
-  /* line 159, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 179, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-3-old:hover {
     background: linear-gradient(#ab0000, #cc0000);
     border: 1px solid #ab0000;
     color: #ffffff; }
 
-/* line 164, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 184, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 .sat-btn-4-old {
   background: linear-gradient(#f4f3f0, #d6d3cc);
   border: 1px solid #d6d3cc;
   color: #000000; }
-  /* line 168, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+  /* line 188, /Users/michael/Code/sat-tools/lib/css/sat.sass */
   .sat-btn-4-old:hover {
     background: linear-gradient(#d6d3cc, #f4f3f0);
     border: 1px solid #d6d3cc;
     color: #000000; }
 
 /* site button ------------------------------ */
-/* line 176, C:/Users/xmsc/htdocs/sat-intranet/tools/lib/css/sat.sass */
+/* line 196, /Users/michael/Code/sat-tools/lib/css/sat.sass */
 button.view-hex {
   display: none; }
 

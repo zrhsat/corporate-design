@@ -65,24 +65,46 @@ div.menu
   box-shadow: 5px 5px 5px $grey_5
   min-width: 450px
 
+//TABLE SETTINGS
 table
-  font-size: 0.8em
-  width: 90%
-  border: 0px
-  margin-bottom: 1em
+    font-size: 1em
+    display: table
+    border-collapse: collapse
+    border-spacing: 0
+    margin-bottom: 1em
+    caption
+        caption-side: bottom
+        text-align: left
+        padding:1em
+        font-size: 0.9em
 
-th
-  background-color: #ffffff
-  padding: 1em
-  line-height: 1em
-  height: 1em
-  text-align: left
+    thead
 
-td
-  padding: 1em
-  text-align: center
-  vertical-align: center
-  color: #fff
+    tbody
+
+    colgroup
+        col
+    tr
+        th
+            background-color: $grey_4
+            padding: 1em
+            line-height: 1em
+            height: 1em
+            text-align: left
+            border: 1px solid white
+        td
+            text-align: left
+            padding: 1em
+            vertical-align: top
+            border: 1px solid white
+
+    //table row striping
+    tr:nth-child(odd)
+        background-color: $grey_6;
+
+    tfoot
+        td
+            background-color: $grey_5
 
 div.content
   background-color: #ffffff
