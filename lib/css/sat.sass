@@ -48,7 +48,7 @@ h1
   margin: 0
   a
     color: $red
-    text-decoration: none;
+    text-decoration: none
 
 h2
   font-size: 1.2em
@@ -60,35 +60,59 @@ h2
   font-size: 0.8em
 
 div.menu
-  background-color: $grey_6
-  padding: 10px
-  box-shadow: 5px 5px 5px $grey_5
+  background-color: #fff
+  padding: 1em
+  box-shadow: 2px 2px 2px $grey_5
   min-width: 450px
-
-table
-  font-size: 0.8em
-  width: 90%
-  border: 0px
-  margin-bottom: 1em
-
-th
-  background-color: #ffffff
-  padding: 1em
-  line-height: 1em
-  height: 1em
-  text-align: left
-
-td
-  padding: 1em
-  text-align: center
-  vertical-align: center
-  color: #fff
 
 div.content
   background-color: #ffffff
   padding: 1em
   box-shadow: 2px 2px 2px $grey_5
   margin: 2em
+
+//TABLE SETTINGS
+table
+    font-size: 1em
+    display: table
+    border-collapse: collapse
+    border-spacing: 0
+    margin-bottom: 1em
+    caption
+        caption-side: bottom
+        text-align: left
+        padding:1em
+        font-size: 0.9em
+
+    thead
+
+    tbody
+
+    colgroup
+        col
+    tr
+        th
+            background-color: $grey_4
+            padding: 1em
+            line-height: 1em
+            height: 1em
+            text-align: left
+            border: 1px solid white
+        td
+            text-align: left
+            padding: 1em
+            vertical-align: top
+            border: 1px solid white
+
+    //table row striping
+    tr:nth-child(odd)
+        background-color: $grey_6;
+
+    tfoot
+        td
+            background-color: $grey_5
+
+
 
 //BUTTON STYLES
 button
