@@ -62,7 +62,7 @@ section {
 
 /* line 50, C:/Users/xmsc/htdocs/sat-intranet/cd/css/sat.sass */
 table {
-  font-size: 1em;
+  font-size: 0.9em;
   display: table;
   border-collapse: collapse;
   border-spacing: 0;
@@ -160,9 +160,13 @@ button {
   /* line 142, C:/Users/xmsc/htdocs/sat-intranet/cd/css/sat.sass */
   .box.box-info {
     background-color: #ccddee; }
+  /* line 144, C:/Users/xmsc/htdocs/sat-intranet/cd/css/sat.sass */
+  .box.box-confirm {
+    background-color: #868839;
+    color: #fff; }
 
 /* site button ------------------------------ */
-/* line 148, C:/Users/xmsc/htdocs/sat-intranet/cd/css/sat.sass */
+/* line 151, C:/Users/xmsc/htdocs/sat-intranet/cd/css/sat.sass */
 button.view-hex {
   display: none; }
 
