@@ -1,6 +1,5 @@
 # CD Tools
 
-This is a set of tools and helpers for use in web-, front-end-design and e-learning environment.
+This is an evolging corporate design guideline for web-, front-end-design and e-learning environment.
 
-- [buttons (preview)](http://intranet.swiss-aviation-training.com/tools/buttons/) 
-- [colors (preview)](http://intranet.swiss-aviation-training.com/tools/colors/)
+[Website](http://intranet.swiss-aviation-training.com/cd/) 
