@@ -1,54 +1,18 @@
-//COLOR VARIABLES
-$red: #cc0000
-$grey: #8b8178
-$blue: #44697d
-$green: #6e7645
-$olive: #988642
-$brown: #774a39
-$blue_msg: #ccddee
-$yellow_msg: #ffffaa
-$grey_1: #6f6660
-$grey_2:#7f766e
-$grey_3:#9e9890
-$grey_4:#bab6ae
-$grey_5:#d6d3cc
-$grey_6:#f5f4f1
-$blue_1: #3e7a9d
-$blue_2: #81a2ba
-$blue_3: #a9c2d3
-$blue_4: #c5d8e2
-$blue_5: #e0edf1
-$green_1: #868839
-$green_2: #9fa371
-$green_3: #b7b98b
-$greem_4: #d6dbba
-$green_5: #dbe1ca
-$brown_1: #975d36
-$brown_2: #e1c24a
-$brown_3: #f0d877
-$brown_4: #feeea4
-$brown_5: #fef6ca
-$yellow_1: #cfa900
-$yellow_2: #e1c24a
-$yellow_3: #f0d877
-$yellow_4: #feeea4
-$yellow_5: #fef6ca
-
 //BASIC FORMATS
 body
   margin: 0
   font-family: Arial, Helvetica, sans-serif
   font-size: 1em
   color: #333
-  background-color: $grey_6
+  background-color: #f5f4f1
 
 h1
   font-size: 2em
-  color: $red
+  color: #cc0000
   font-weight: normal
   margin: 0
   a
-    color: $red
+    color: #cc0000
     text-decoration: none
 
 h2
@@ -59,17 +23,20 @@ h2
 .txt-small
   font-size: 0.8em
 
-div.menu
-  background-color: #fff
-  padding: 1em
-  box-shadow: 2px 2px 2px $grey_5
-  min-width: 450px
+ul
+    margin-bottom:1em
+    list-style: none
+    padding-left: 1em
+    li:before
+        content:"– "
 
-div.content
-  background-color: #ffffff
-  padding: 1em
-  box-shadow: 2px 2px 2px $grey_5
-  margin: 2em
+    li
+       text-indent:-0.9em
+
+section
+    margin:1em
+    padding:1em
+    background-color: #fff
 
 //TABLE SETTINGS
 table
@@ -92,7 +59,7 @@ table
         col
     tr
         th
-            background-color: $grey_4
+            background-color: #bab6ae
             padding: 1em
             line-height: 1em
             height: 1em
@@ -106,11 +73,11 @@ table
 
     //table row striping
     tr:nth-child(odd)
-        background-color: $grey_6;
+        background-color: #f5f4f1;
 
     tfoot
         td
-            background-color: $grey_5
+            background-color: #d6d3cc
 
 
 
@@ -161,41 +128,14 @@ button
     border: 1px solid #d6d3cc
     color: #000000
 
-.sat-btn-1-old
-  background: linear-gradient(#666666, #333333)
-  border: 1px solid #333333
-  color: #ffffff
-  &:hover
-    background: linear-gradient(#333333, #666666)
-    border: 1px solid #333333
-    color: #ffffff
-
-.sat-btn-2-old
-  background: linear-gradient(#9e9890, #7f766e)
-  border: 1px solid #7f766e
-  color: #ffffff
-  &:hover
-    background: linear-gradient(#7f766e, #9e9890)
-    border: 1px solid #7f766e
-    color: #ffffff
-
-.sat-btn-3-old
-  background: linear-gradient(#cc0000, #ab0000)
-  border: 1px solid #ab0000
-  color: #ffffff
-  &:hover
-    background: linear-gradient(#ab0000, #cc0000)
-    border: 1px solid #ab0000
-    color: #ffffff
-
-.sat-btn-4-old
-  background: linear-gradient(#f4f3f0, #d6d3cc)
-  border: 1px solid #d6d3cc
-  color: #000000
-  &:hover
-    background: linear-gradient(#d6d3cc, #f4f3f0)
-    border: 1px solid #d6d3cc
-    color: #000000
+//MESSAGE BOXES
+.box
+    padding: 1em
+    margin: 1em 0
+    &.box-error
+        background-color: #ffffaa
+    &.box-info
+        background-color:#ccddee
 
 /* site button ------------------------------
 
