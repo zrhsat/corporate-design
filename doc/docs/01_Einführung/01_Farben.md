@@ -1,4 +1,4 @@
-### Primary colors
+# Primary colors
 <table border="0" cellspacing="0">
     <tr>
         <th>Grey</th>
@@ -19,7 +19,7 @@
     </tr>
 </table>
 
-### Message colors
+# Message colors
 <table border="0" cellspacing="0">
 
     <tr>
@@ -32,7 +32,7 @@
     </tr>
 </table>
 
-### Secondary colors
+# Secondary colors
 <table border="0" cellspacing="0">
     <tr>
         <th>Grey</th>
