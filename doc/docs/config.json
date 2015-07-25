@@ -1,7 +1,7 @@
 {
-    "title": "DAUX.IO",
+    "title": "SAT Corporate Design",
     "tagline": "The Easiest Way To Document Your Project",
-    "author": "Justin Walsh",
+    "author": "Michael Scherer",
     "image": "<base_url>img/app.png",
     "theme": "daux-blue",
     "template": "default",
@@ -17,8 +17,8 @@
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]
     },
-    "twitter": ["justin_walsh", "todaymade"],
-    "google_analytics": "UA-12653604-10",
+    "twitter": [],
+    "google_analytics": "",
     "links": {
         "Download": "https://github.com/justinwalsh/daux.io/archive/master.zip",
         "GitHub Repo": "https://github.com/justinwalsh/daux.io",
