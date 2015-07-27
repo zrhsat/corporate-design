@@ -7,7 +7,7 @@ $( document ).ready(function() {
             var colorGreen = parseInt(hexclean.substr(2,2),16);
             var colorBlue = parseInt(hexclean.substr(4,2),16);
             var RGB = "rgb("+colorRed+", "+colorGreen+", "+colorBlue+")"
-            $(this).text(hextext.replace(hextext, RGB));
+            $(this).html(hextext.replace(hextext, hextext+"<br>"+RGB));
         });
         $("button.view-rgb").hide();
         $("button.view-hex").show();
