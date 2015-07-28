@@ -169,11 +169,10 @@ button {
     background-color: #ccddee; }
   /* line 154, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .box.box-confirm {
-    background-color: #b7b98b;
-    color: #fff; }
+    background-color: #d6dbba; }
 
 /* site button ------------------------------ */
-/* line 161, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 160, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 button.view-hex {
   display: none; }
 
