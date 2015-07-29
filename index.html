@@ -5,25 +5,25 @@
     <title>Corporate design</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sat.css">
+    <link rel="stylesheet" href="css/cd.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/colors.js"></script>
   </head>
   <body>
    <div class="content">
-
-<!--Introduction-->
-        <section>
-           <h1 class="maintitle">Corporate design</h1>
-            <p>This is an evolving corporate design guideline for digital media</p>
+        <header>
+            <h1 class="maintitle"><strong>Corporate design</strong> <br>Guidelines for digital media</h1>
+        </header>
+<!--Navigation-->
+        <nav class="toc">
             <ul>
-                <li><a href="#buttons">Buttons</a></li>
                 <li><a href="#colors">Colors</a></li>
+                <li><a href="#buttons">Buttons</a></li>
                 <li><a href="#message-boxes">Message boxes</a></li>
                 <li><a href="#tables">Tables</a></li>
                 <li><a href="#recommended-tools">Recommended tools</a></li>
             </ul>
-
-        </section>
+        </nav>
 
 
 
@@ -123,10 +123,10 @@
 
 <!-- Buttons        -->
         <section>
-            <h2 id="buttons">Button style</h2>
+            <h2 id="buttons">Buttons</h2>
             <button class="sat-btn-1"><i class="fa fa-home fa-fw"></i> button 1</button>
             <code>
-<pre>button: {
+button: {
     color: #333
     font-size: 0.9em
     padding: 1em
@@ -142,12 +142,12 @@
     background-color: #333333;
     border: 1px solid #333333;
     color: #ffffff;
-}</pre>
+}
             </code>
 
             <button class="sat-btn-2"><i class="fa fa-check fa-fw"></i> button 2</button>
             <code>
-<pre>.sat-btn-2 {
+.sat-btn-2 {
     background-color: #9e9890;
     border: 1px solid #7f766e;
     color: #ffffff;
@@ -156,11 +156,11 @@
     background-color: #7f766e;
     border: 1px solid #7f766e;
     color: #ffffff;
-}</pre>
+}
             </code>
             <button class="sat-btn-3"><i class="fa fa-heart fa-fw"></i> button 3</button>
             <code>
-<pre>.sat-btn-3 {
+.sat-btn-3 {
     background-color: #cc0000;
     border: 1px solid #ab0000;
     color: #ffffff;
@@ -169,13 +169,12 @@
     background-color: #ab0000;
     border: 1px solid #ab0000;
     color: #ffffff;
-}</pre>
+}
             </code>
 
             <button class="sat-btn-4"><i class="fa fa-plane fa-fw"></i> button 4</button>
             <code>
-
-<pre>.sat-btn-4 {
+.sat-btn-4 {
     background-color: #f4f3f0;
     border: 1px solid #d6d3cc;
     color: #000000;
@@ -184,7 +183,7 @@
     background-color: #d6d3cc;
     border: 1px solid #d6d3cc;
     color: #000000;
-}</pre>
+}
             </code>
             <p>preferred button style flat with <a href="http://fortawesome.github.io/Font-Awesome/icons/">font awesome</a> icons</p>
         </section>
@@ -194,8 +193,27 @@
         <section>
             <h2 id="message-boxes">Message boxes</h2>
             <div class="box box-error"><i class="fa fa-exclamation fa-fw"></i> This is a warning!</div>
+            <code>
+.box {
+    padding: 1em;
+    margin: 1em 0;
+}
+.box.box-error {
+    background-color: #ffffaa;
+}
+            </code>
             <div class="box box-info"><i class="fa fa-info fa-fw">   </i> This is just an information</div>
+            <code>
+.box.box-info {
+    background-color: #ccddee;
+}
+            </code>
             <div class="box box-confirm"><i class="fa fa-check fa-fw">   </i> This is confirmation</div>
+            <code>
+.box.box-confirm {
+    background-color: #d6dbba;
+}
+            </code>
         </section>
 <!--Tables        -->
         <section>

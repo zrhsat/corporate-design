@@ -2,10 +2,10 @@
 /* line 2, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: #333;
-  background-color: #f5f4f1; }
+  color: #333; }
 
 /* line 9, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 a {
@@ -45,43 +45,53 @@ h3 {
 /* line 36, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 code {
   display: block;
+  white-space: pre-wrap;
   background-color: #e0edf1;
   border: 1px solid #c5d8e2;
-  padding: 1em;
+  padding: 0 1em;
   margin: 1em 0; }
 
-/* line 43, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 44, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 ul {
   margin-bottom: 1em;
   list-style: none;
   padding-left: 1em; }
-  /* line 47, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 48, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   ul li:before {
     content: "– "; }
-  /* line 49, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 50, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   ul li {
     text-indent: -0.9em; }
 
 /* line 52, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+header {
+  margin: 1em;
+  padding: 1em; }
+
+/* line 55, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 section {
   margin: 1em;
-  padding: 1em;
-  background-color: #fff; }
+  padding: 1em; }
 
 /* line 58, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+nav {
+  margin: 1em;
+  padding: 1em; }
+
+/* line 63, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 table {
   font-size: 0.9em;
   display: table;
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1em; }
-  /* line 64, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 69, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   table caption {
     caption-side: bottom;
     text-align: left;
     padding: 1em;
     font-size: 0.9em; }
-  /* line 77, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 82, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   table tr th {
     background-color: #bab6ae;
     padding: 1em;
@@ -89,91 +99,86 @@ table {
     height: 1em;
     text-align: left;
     border: 1px solid white; }
-  /* line 84, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 89, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   table tr td {
     text-align: left;
     padding: 1em;
     vertical-align: top;
     border: 1px solid white; }
-  /* line 91, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 96, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   table tr:nth-child(odd) {
     background-color: #f5f4f1; }
-  /* line 95, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 100, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   table tfoot td {
     background-color: #d6d3cc; }
 
-/* line 101, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 106, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 button {
   color: #333;
   font-size: 0.9em;
   padding: 1em;
   border-radius: 3px;
   margin: 0; }
-  /* line 107, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 112, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   button:hover {
     /*cursor:pointer; */ }
 
-/* line 110, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 115, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 .sat-btn-1 {
   background-color: #666666;
   border: 1px solid #333333;
   color: #ffffff; }
-  /* line 114, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 119, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .sat-btn-1:hover {
     background-color: #333333;
     border: 1px solid #333333;
     color: #ffffff; }
 
-/* line 119, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 124, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 .sat-btn-2 {
   background-color: #9e9890;
   border: 1px solid #7f766e;
   color: #ffffff; }
-  /* line 123, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 128, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .sat-btn-2:hover {
     background-color: #7f766e;
     border: 1px solid #7f766e;
     color: #ffffff; }
 
-/* line 128, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 133, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 .sat-btn-3 {
   background-color: #cc0000;
   border: 1px solid #ab0000;
   color: #ffffff; }
-  /* line 132, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 137, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .sat-btn-3:hover {
     background-color: #ab0000;
     border: 1px solid #ab0000;
     color: #ffffff; }
 
-/* line 137, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 142, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 .sat-btn-4 {
   background-color: #f4f3f0;
   border: 1px solid #d6d3cc;
   color: #000000; }
-  /* line 141, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 146, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .sat-btn-4:hover {
     background-color: #d6d3cc;
     border: 1px solid #d6d3cc;
     color: #000000; }
 
-/* line 147, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+/* line 152, C:/Users/xmsc/htdocs/cd/css/sat.sass */
 .box {
   padding: 1em;
   margin: 1em 0; }
-  /* line 150, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 155, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .box.box-error {
     background-color: #ffffaa; }
-  /* line 152, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 157, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .box.box-info {
     background-color: #ccddee; }
-  /* line 154, C:/Users/xmsc/htdocs/cd/css/sat.sass */
+  /* line 159, C:/Users/xmsc/htdocs/cd/css/sat.sass */
   .box.box-confirm {
     background-color: #d6dbba; }
-
-/* site button ------------------------------ */
-/* line 160, C:/Users/xmsc/htdocs/cd/css/sat.sass */
-button.view-hex {
-  display: none; }
 
 /*# sourceMappingURL=sat.css.map */

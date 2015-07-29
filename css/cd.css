@@ -1,0 +1,46 @@
+/* line 1, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+h1.maintitle {
+  font-size: 5em; }
+
+/* line 4, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+header p {
+  font-size: 2em; }
+
+/* line 6, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+nav.toc {
+  padding: 2em; }
+
+/* line 8, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+section {
+  border-bottom: 0.3em solid #333; }
+  /* line 10, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+  section h2 {
+    font-size: 3em; }
+
+/* line 12, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+nav {
+  border-top: 0.3em solid #333;
+  border-bottom: 0.3em solid #333; }
+  /* line 15, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+  nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; }
+    /* line 19, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+    nav ul li:before {
+      content: ""; }
+    /* line 21, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+    nav ul li {
+      text-indent: 0em;
+      float: left;
+      margin: 1em; }
+    /* line 25, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+    nav ul li:first-child {
+      margin-left: 0; }
+  /* line 27, C:/Users/xmsc/htdocs/cd/css/cd.sass */
+  nav ul:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/*# sourceMappingURL=cd.css.map */
